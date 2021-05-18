@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+main {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: #98d06ad5;
+}
+h1 {
+    color: #28470F;
+}
+h2 {
+    color: #28470F;
+}
+p {
+    color: #28470F;
+    font-weight: bold;
+    margin: 0px 150px;
+}
+figcaption {
+    color: #7A2D14;
+    font-size: 14px;
+    font-weight: bolder;
+}
+a:link {
+    color: green;
+    border: 2px solid green;
+    padding: 5px 15px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited {
+    color: #28470F;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    color: #f9a71d;
+    background-color: #c74216c2;
+    text-decoration: underline;
+}
+a:active {
+    color: #f9a71d;
+    background-color: #c74216;
+    text-decoration: underline;
+}
+img[src*="https://1.bp.blogspot.com/-y2F3lk0709U/WpL9kEybB3I/AAAAAAAAB8E/JLpXm6ScYj4UC91xhgrKQ1zjb5wcIwXQwCEwYBhgL/s1600/cbb55a6382682bf71e91f685c6473c5a1487736090_full.jpg"] {
+    height: 350px;
+}
+img[src*="https://media.fstatic.com/DYg1oc3eaKFFyHK_B-WJKrMTN0A=/290x478/smart/media/movies/covers/2014/07/hantaxhanta_tNone.jpg"] {
+    height: 350px;
+}
+img[src*="https://flxt.tmsimg.com/assets/p10281010_p_v10_aa.jpg"] {
+    height: 350px;
+}
+img[src*="https://upload.wikimedia.org/wikipedia/en/b/b3/Hunter_x_Hunter_The_Last_Mission_poster.png"] {
+    height: 350px;
+}
+img[src*="https://static.wikia.nocookie.net/hunterxhunter/images/8/89/Hunter_Exam_Arc.jpg/revision/latest?cb=20130619233837"] {
+    height: 350px;
+}
+img {
+    height: 350px;
+}
+table, th, td {
+    border: 1px solid #28470F;
+    border-collapse: collapse;
+    overflow:auto;
+  }
+table {
+    width: 100%;
+}
+li {
+    text-align: left;
+}
