@@ -63,6 +63,7 @@ img[src*="https://static.wikia.nocookie.net/hunterxhunter/images/8/89/Hunter_Exa
 }
 img {
     height: 350px;
+    border: 5px solid #28470F;
 }
 table, th, td {
     border: 1px solid #28470F;
@@ -84,4 +85,7 @@ ul {
 }
 td {
     text-align: center;
+}
+#imgpng {
+    border: none;
 }
