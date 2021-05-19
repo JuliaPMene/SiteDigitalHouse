@@ -68,10 +68,20 @@ table, th, td {
     border: 1px solid #28470F;
     border-collapse: collapse;
     overflow:auto;
+    text-align: center;
   }
 table {
     width: 100%;
 }
 li {
     text-align: left;
+}
+#listaexpedição {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+td {
+    text-align: center;
 }
