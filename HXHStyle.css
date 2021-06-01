@@ -12,6 +12,12 @@ h1 {
 h2 {
     color: #28470F;
 }
+h3 {
+    color: #1f3a08;
+}
+h4 {
+    color: #1f3a08;
+}
 p {
     color: #28470F;
     font-weight: bold;
@@ -21,6 +27,10 @@ figcaption {
     color: #7A2D14;
     font-size: 14px;
     font-weight: bolder;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 a:link {
     color: green;
@@ -45,6 +55,24 @@ a:active {
     color: #f9a71d;
     background-color: #c74216;
     text-decoration: underline;
+}
+header {
+    padding: 10px 0px;
+    margin: 50px;
+    background-color: #5177323f;
+}
+#imgheader {
+    height: 150px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    margin: 50px;
+    padding: 10px 0px;
+    background-color: #5177323f;
 }
 img[src*="https://1.bp.blogspot.com/-y2F3lk0709U/WpL9kEybB3I/AAAAAAAAB8E/JLpXm6ScYj4UC91xhgrKQ1zjb5wcIwXQwCEwYBhgL/s1600/cbb55a6382682bf71e91f685c6473c5a1487736090_full.jpg"] {
     height: 350px;
@@ -76,6 +104,8 @@ table {
 }
 li {
     text-align: left;
+    font-weight: bold;
+    color: #28470F
 }
 #listaexpedição {
     text-align: center;
@@ -88,4 +118,23 @@ td {
 }
 #imgpng {
     border: none;
+}
+#UniHXHimgs {
+    height: 100px;
+}
+#imgsnapagnen {
+    height: 275px;
+}
+#listanen {
+    font-weight: bold;
+    text-align: center;
+    color: #28470F;
+    list-style-type: square;
+    list-style-position: inside;
+}
+#linkimg {
+    border: none;
+}
+a:hover ~ #linkimg {
+    background-color: none;
 }
